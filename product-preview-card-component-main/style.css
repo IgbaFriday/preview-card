@@ -1,0 +1,107 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.image{
+  width: 268px;
+  position: absolute;
+  display: flex;
+  border-top-left-radius: 10px ;
+  border-bottom-left-radius: 10px;
+  margin-top: -50px;
+}
+.main{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+}
+body{
+  background-color: hsl(30, 38%, 92%);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  max-width: 600px;
+  padding-top: 20em;  
+}
+.contain{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  left: 16.7em;
+  position: absolute;
+  background-color: hsl(0, 0%, 100%);
+  width: 300px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  margin-top: -3.1em;
+  padding-bottom: 25px;
+}
+.attribution{
+  position: absolute;
+  top:20em;
+}
+.Preview{
+  font: 500 15px 'Fraunces',sans-serif;
+  padding: 40px 0 10px 30px;
+  color: hsl(228, 12%, 48%);
+}
+.essence{
+  font: 800 31px 'Montserrat',sans-serif;
+  padding: 0 0 10px 30px;
+}
+.Eau{
+ margin-top: -10px;
+}
+.solar{
+  font: 400 16px system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  padding: 0 0 10px 30px ;
+  color: hsl(228, 12%, 48%);
+}
+.mix{
+  display: flex;
+  margin-left: 30px;
+}
+.for{
+  font: 800 31px 'Montserrat',sans-serif;
+  color: hsl(158, 36%, 37%);
+}
+.the{
+  font: 400 14px 'Montserrat',sans-serif;
+  padding: 18px 0 0 30px;
+}
+.area{
+  position: absolute;
+  width: 48px;
+  margin: 26px 0 0 45px;
+  left: 50%;
+}
+.icon-button{
+  position: relative;
+  display: flex;
+  background-color: hsl(158, 36%, 37%);
+  width: 72%;
+  justify-content: center;
+  margin: 10px 0 0 34px;
+  border-radius: 10px;
+  padding: 12px 0 12px 0;
+  cursor: pointer;
+   transition: opacity 0.5ms;
+   border: none;
+}
+.icon-button:active{
+  background-color: chocolate;
+  color: aqua;
+  transition: background-colour 0.5ms
+  color 0.2ms;
+}
+.icon-button:hover{
+  opacity: 0.7;
+}
+.add{
+  padding: 0 0 0 20px;
+  font: 600 14px 'Montserrat',sans-serif;
+  color: hsl(0, 0%, 100%);
+}
